@@ -1,42 +1,29 @@
 import java.util.Date;
-
-/** * Class that stores information about the concrete student
- 
- * DO NOT REMOVE given methods, but you can add new methods/fields/constructor
- * and change the given methods implementation. For example you can change implementation for equals()
- * or hashCode() method
- * 
- */
+class student[]
+{
+public static void main[string args()]
+{
+private id;
+private fullName;
+private birthDate;
+private avgMark;
+}
 public class Student implements Comparable {
 
-	/**
-	 * student id
-	 */
 	private int id;
-
-	/**
-	 * student name and surname separated by the whitespace for example:
-	 * fullName = "David Luis";
-	 */
 	private String fullName;
-
 	/**
 	 * student date of birth in "yyyy-MM-dd" format
 	 */
 	private Date birthDate;
-
-	/**
-	 * student average mark
-	 */
 	private double avgMark;
-
-	public Student(int id, String fullName, Date birthDate, double avgMark) {
+public Student(int id, String fullName, Date birthDate, double avgMark) {
 		this.id = id;
 		this.fullName = fullName;
 		this.birthDate = birthDate;
 		this.avgMark = avgMark;
 	}
-
+private int id="14241"
 	public int getId() {
 		return id;
 	}
@@ -44,7 +31,7 @@ public class Student implements Comparable {
 	public void setId(int id) {
 		this.id = id;
 	}
-
+private string fullName="mandi dadakhalandar"
 	public String getFullName() {
 		return fullName;
 	}
@@ -52,7 +39,7 @@ public class Student implements Comparable {
 	public void setFullName(String fullName) {
 		this.fullName = fullName;
 	}
-
+private Date birthDate="1997-02-22"
 	public Date getBirthDate() {
 		return birthDate;
 	}
@@ -60,7 +47,7 @@ public class Student implements Comparable {
 	public void setBirthDate(Date birthDate) {
 		this.birthDate = birthDate;
 	}
-
+private double avgMark="50"
 	public double getAvgMark() {
 		return avgMark;
 	}
